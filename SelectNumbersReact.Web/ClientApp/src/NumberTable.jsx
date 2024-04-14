@@ -28,7 +28,7 @@ class NumberTable extends React.Component {
 
     onLockClick = e => {
         const num = e.target.value;
-        const copy = [...this.state.lockedNumbers, num];
+        const copy = [...this.state.lockedNumbers, num];  
         this.setState({ lockedNumbers: copy });
     }
 
